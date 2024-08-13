@@ -1,0 +1,68 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* Color de fondo de la página */
+}
+
+.tarjeta.de.perfil {
+    /* Estilo para la tarjeta de perfil */
+
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    /* Centrar el texto dentro de la tarjeta */
+
+}
+
+/* Estilo para la foto de perfil */
+.matias-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* Borde circular para el avatar */
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    /* transform: translateX(-50%); */
+    border: 4px solid white;
+    /* Borde blanco para que el avatar destaque */
+}
+
+/* Estilo para el título */
+.tarjeta.de.perfil h2 {
+    margin-top: 50px;
+    /* Separación desde el borde superior de la tarjeta para que el texto no choque con el avatar */
+    font-size: 20px;
+}
+
+/*Estilo para el parrafo */
+
+.tarjeta.de.perfil p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Estilo para el botón */
+.tarjeta.de.perfil button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tarjeta.de.perfil button:hover {
+    background-color: #0056b3;
+}

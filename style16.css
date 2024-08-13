@@ -1,0 +1,59 @@
+/* Estilo por defecto para pantallas grandes (>= 1440px) */
+body {
+    background-color: red;
+
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+}
+
+div p {
+    background-color: antiquewhite;
+    color: yellowgreen;
+    font-size: 24px;
+}
+
+.leon-imagen {
+    width: 50%;
+    /* La imagen ocupa el 50% del ancho de la pantalla */
+
+
+}
+
+/* Estilos para pantallas medianas (768px - 1439px) */
+
+@media (max-width: 1439px) and (min-width: 768px) {
+    body {
+        background-color: green;
+
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .leon-imagen {
+        width: 70%;
+        /* La imagen ocupa el 70% del ancho de la pantalla */
+    }
+}
+
+
+/* Estilos para pantallas pequeñas (<= 425px) */
+@media (max-width: 767px) {
+    body {
+        background-color: blue;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .leon-imagen {
+        width: 100%;
+        /* La imagen ocupa el 100% del ancho de la pantalla */
+    }
+}
